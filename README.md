@@ -63,14 +63,20 @@
 정영진</b></sub></a><br /></td>
     <td align="center"><a href="https://github.com/junbo-shim"><img src="https://avatars.githubusercontent.com/u/134994745?v=4" width="100px;" alt=""/><br /><sub><b>
 심준보</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/YoonpyoHong"><img src="https://avatars.githubusercontent.com/u/33150420?v=4" width="100px;" alt=""/><br /><sub><b>
-홍윤표</b></sub></a><br /></td>
     <td align="center"><a href="https://github.com/bit-generator"><img src="https://avatars.githubusercontent.com/u/53938713?v=4" width="100px;" alt=""/><br /><sub><b>
 김태하</b></sub></a><br /></td>
     
   </tr>
 </table>
 
+## 2-1. 👽 Our Squad (Graduated)
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/YoonpyoHong"><img src="https://avatars.githubusercontent.com/u/33150420?v=4" width="100px;" alt=""/><br /><sub><b>
+홍윤표</b></sub></a><br /></td>
+    
+  </tr>
+</table>
 ---
 
 ## 3. ⛳ Curriculum 
