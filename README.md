@@ -65,6 +65,8 @@
 심준보</b></sub></a><br /></td>
     <td align="center"><a href="https://github.com/bit-generator"><img src="https://avatars.githubusercontent.com/u/53938713?v=4" width="100px;" alt=""/><br /><sub><b>
 김태하</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/shHan96"><img src="https://avatars.githubusercontent.com/u/58022564?v=4" width="100px;" alt=""/><br /><sub><b>
+한상훈</b></sub></a><br /></td>
     
   </tr>
 </table>
