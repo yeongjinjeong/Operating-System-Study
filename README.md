@@ -91,8 +91,8 @@
 |---------|-------------------------------|----------------------------------------------------|--------------|
 | Week 1 - 1  | 스터디 OT  | 스터디 운영 방식 및 내용 소개 | ✅           |
 | Week 1 - 2  | 섹션 2. Chapter 1-2. Introduction & O/S Structures  | 강의 01, 02 - 운영체제의 개념 | ✅           |
-| Week 2 - 1  | 섹션 3. Chapter 3. Processes  | 강의 03, 04 - 프로세스의 이해와 생성          | 📅            |
-| Week 2 - 2  | 섹션 3. Chapter 3. Processes  | 강의 05, 06 - 프로세스간 통신 및 통신의 실제 | 📅           |
+| Week 2 - 1  | 섹션 3. Chapter 3. Processes  | 강의 03, 04 - 프로세스의 이해와 생성          | ✅           |
+| Week 2 - 2  | 섹션 3. Chapter 3. Processes  | 강의 05, 06 - 프로세스간 통신 및 통신의 실제 | ✅           |
 | Week 3 - 1  | 섹션 4. Chapter 4. Thread & Concurrency  | 강의 07, 08 - 쓰레드와 멀티쓰레딩  | 📅         |
 | Week 3 - 2  | 섹션 5. Chapter 5. CPU Scheduling | 강의 09, 10 - CPU 스케줄링 및 스케줄링 알고리즘 | 📅           |
 | Week 4 - 1  | 섹션 6. Chapter 6. Synchronization Tools | 강의 11, 12 - 프로세스 동기화와 문제 해결책   |    📅     | 
