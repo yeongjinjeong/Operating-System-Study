@@ -93,7 +93,7 @@
 | Week 1 - 2  | 섹션 2. Chapter 1-2. Introduction & O/S Structures  | 강의 01, 02 - 운영체제의 개념 | ✅           |
 | Week 2 - 1  | 섹션 3. Chapter 3. Processes  | 강의 03, 04 - 프로세스의 이해와 생성          | ✅           |
 | Week 2 - 2  | 섹션 3. Chapter 3. Processes  | 강의 05, 06 - 프로세스간 통신 및 통신의 실제 | ✅           |
-| Week 3 - 1  | 섹션 4. Chapter 4. Thread & Concurrency  | 강의 07, 08 - 쓰레드와 멀티쓰레딩  | 📅         |
+| Week 3 - 1  | 섹션 4. Chapter 4. Thread & Concurrency  | 강의 07, 08 - 쓰레드와 멀티쓰레딩  | ✅         |
 | Week 3 - 2  | 섹션 5. Chapter 5. CPU Scheduling | 강의 09, 10 - CPU 스케줄링 및 스케줄링 알고리즘 | 📅           |
 | Week 4 - 1  | 섹션 6. Chapter 6. Synchronization Tools | 강의 11, 12 - 프로세스 동기화와 문제 해결책   |    📅     | 
 | Week 4 - 2  | 섹션 6. Chapter 6. Synchronization Tools  | 강의 13, 14 - 뮤텍스,세마포어,모니터, 자바 동기화 | 📅         |
@@ -102,6 +102,7 @@
 | Week 6  | 섹션 9. Chapter 9. Main Memory  | 강의 19, 20 - 주메모리 관리와 페이징, 스와핑 | 📅         |
 | Week 7  | 섹션 10. Chapter 10. Virtual Memory  | 강의 21, 22 - 가상 메모리와 관련 알고리즘 | 📅         |
 | Week 8  | 섹션 11,12. Chapter 11-17 Storage Management & Security & Protection  | 강의 23, 24 - 스토리지 입출력 및 운영체제 보안 | 📅         |
+| Week 9  | 마지막 개념 총정리본 만들기  | 오프라인으로 만나서 지금까지 중요한 질문들 및 답변 정리해서 요약본 만들기 | 📅         |
 
 ---
 
