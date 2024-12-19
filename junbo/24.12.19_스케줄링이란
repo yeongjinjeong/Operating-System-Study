@@ -1,0 +1,70 @@
+1. CPU 스케줄링을 왜 해야 하나요
+CPU 스케줄링을 해야하는 이유는 크게 5가지로 정리해볼 수 있습니다
+1. CPU 가 작업을 수행하는 시간을 최대한 늘려서, CPU 의 연산능력을 효율적으로 사용하기 위함입니다
+2. 단위 시간 내에 완료되는 작업의 수(through-put)을 최대화하기 위함입니다
+3. 작업의 실행시작부터 완료까지 걸리는 시간(turnaround time)을 최소화하기 위함입니다
+4. 작업이 대기 큐에 있는 시간(waiting time)의 총합을 최소화하기 위함입니다
+5. 요청을 받고 요청을 실행하기까지 걸리는 시간인 응답시간(response time)을 최소화하기 위함입니다
+
+즉, 결론적으로 작업이 지나치게 오래 대기하거나, 작업 완료까지 걸리는 시간이 오래 걸리지 않도록
+작업 간의 CPU 점유 순서를 정하여 CPU의 연산 성능을 효율적으로 사용하기 위해 스케줄링을 하는 것입니다
+
+1-1. CPU 스케줄러가 뭔가요
+OS 에서 CPU 를 점유할, 프로세스나 쓰레드를 기준에 따라서 대기 큐에 넣고 이를 관리하는 역할을 수행하는 OS 구성요소입니다
+
+1-2. 디스패처는 뭔가요
+디스패처는 OS 의 구성요소 중 하나로, 실질적인 context-switching 을 수행하는 모듈입니다
+현재 프로세스, 쓰레드의 정보를 PCB 에 저장하고 스케줄러가 지정한 다음 프로세스, 쓰레드의 PCB 또는 TCB 에서 데이터를 읽어옵니다(dispatcher latency)
+또한 스위칭을 한 뒤, 프로세스, 쓰레드가 동작을 할 수 있도록 마지막 실행 부분을 불러오고 유저 스페이스로 권한을 넘겨줍니다
+
+1-3. 디스패처와 스케줄러를 비교해서 설명해보세요
+스케줄러는 프로세스나 쓰레드가 대기할 큐를 관리하고 다음 프로세스, 쓰레드를 지정하는 역할을 하는 반면
+디스패처는 스케줄러가 지정한 다음 프로세스, 쓰레드로 context-switching 을 수행하는 역할을 합니다
+
+2. 스케줄링의 종류에 대해서 설명해보세요
+
+1. FCFS : first come first served
+	- non-pre emptive
+	- CPU 점유 요청을 하는 순서대로 배정
+	- CPU burst time이 큰 프로세스를 기다리게 되면 전체적인 waiting time, turnaround time 이 크게 늘어남 = 비효율
+	- convoy 효과가 발생
+
+2. SJF : shortest job first
+	- 1번의 비효율성을 보완
+	- 가장 적은 CPU burst time 을 가진 프로세스가 우선적으로 배정
+	- 문제 : 프로세스의 CPU burst time 을 정확하게 알 수 없기에 대략적인 근사치를 기준으로 스케줄을 작성할 수 밖에 없음, 이론상 가장 빠른 방법
+
+2-1. SRTF : shortest remaining job first
+	- 2번에서 기존 작업의 남은 CPU burst time보다 새로 들어온 작업의 remaining time 이 작을 경우
+	- 기존 작업을 밀어내고(pre emptive) 처리하는 방법
+	- remaing time 을 최소화하는 방법을 추가
+
+3. RR : round-robin
+	- 정해진 시간만큼만 프로세스가 CPU 를 점유할 수 있도록 함
+	- 보통 10ms 만큼 시간을 지정
+	- ready queue 는 보통 circular queue 형태
+	- 만약 정해진 타이머보다 적은 CPU burst time 을 썼다면, 다음 프로세스에게 CPU 점유권한을 자발적으로 넘김
+	- 만약 정해진 타이머보다 많은 CPU burst time 을 썼다면, 타이머가 OS 에게 인터럽트를 걸고, context-switching 이 일어나며, 현재 프로세스가 ready queue 의 가장 뒤로 붙게 된다
+	- 타이머를 얼마로 지정하느냐에 따라서 RR 의 성능이 크게 달라짐
+
+4. priority-based
+	- 우선순위를 부여하여 이를 기반으로 ready queue 에 프로세스를 넣음
+	- starvation 문제가 발생할 수 있음
+		: 우선순위가 낮은 프로세스들은 우선순위가 높은 프로세스가 계속 들어오면 대기만 하게됨
+	- aging 이라는 방법을 도입하여 queue 에서 오래 기다린 프로세스의 우선순위를 점진적으로 높여, starvation 문제를 해결할 수 있음
+
+4-1. RR + Priority
+	- 기본적으로는 우선순위를 바탕으로 동작
+	- 만약 우선순위가 같은 프로세스들이 있다면 정해진 시간만큼 CPU 를 점유하도록 설정
+
+5. MLQ : multi-level queue (경우에 따라 여러 잣대를 사용)
+	- 우선순위 등급 별로 ready-queue 를 만들어서 관리
+	- realtime -> system -> interactive -> batch 순서
+	- 높은 우선순위에서 계속 돌아가면 다른 큐들이 실행을 못함
+
+6. MLFQ : multi-level feedback queue
+	- MLQ 의 starvation 문제를 RR 방식과 결합하여 해결하고자 함
+	- 상위 큐는 적은 시간을 할당, 하위 큐에는 많은 시간을 할당
+	- 짧은 작업들은 상위 큐로, CPU-bound 인 작업들은 하위 큐로 이동
+	- waiting time 과 turnaround time 을 모두 고려하는 방식
+	- 현대적 OS 스케줄링
