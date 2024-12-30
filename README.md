@@ -95,9 +95,9 @@
 | Week 2 - 2  | 섹션 3. Chapter 3. Processes  | 강의 05, 06 - 프로세스간 통신 및 통신의 실제 | ✅           |
 | Week 3 - 1  | 섹션 4. Chapter 4. Thread & Concurrency  | 강의 07, 08 - 쓰레드와 멀티쓰레딩  | ✅         |
 | Week 3 - 2  | 섹션 5. Chapter 5. CPU Scheduling | 강의 09, 10 - CPU 스케줄링 및 스케줄링 알고리즘 | ✅           |
-| Week 4 - 1  | 섹션 6. Chapter 6. Synchronization Tools | 강의 11, 12 - 프로세스 동기화와 문제 해결책   |    📅     | 
-| Week 4 - 2  | 섹션 6. Chapter 6. Synchronization Tools  | 강의 13, 14 - 뮤텍스,세마포어,모니터, 자바 동기화 | 📅         |
-| Week 5 - 1  | 섹션 7. Chapter 7. Synchronization Examples |  강의 15, 16, 16-1 - 동시성 제어의 고전적 문제들과 예시  |    📅     | 
+| Week 4 - 1  | 섹션 6. Chapter 6. Synchronization Tools | 강의 11, 12 - 프로세스 동기화와 문제 해결책   |    ✅     | 
+| Week 4 - 2  | 섹션 6. Chapter 6. Synchronization Tools  | 강의 13, 14 - 뮤텍스,세마포어,모니터, 자바 동기화 | ✅         |
+| Week 5 - 1  | 섹션 7. Chapter 7. Synchronization Examples |  강의 15, 16, 16-1 - 동시성 제어의 고전적 문제들과 예시  |    ✅     | 
 | Week 5 - 2  | 섹션 8. Chapter 8. Deadlocks  | 강의 17, 18 - 데드락과 뱅커 알고리즘 | 📅         |
 | Week 6  | 섹션 9. Chapter 9. Main Memory  | 강의 19, 20 - 주메모리 관리와 페이징, 스와핑 | 📅         |
 | Week 7  | 섹션 10. Chapter 10. Virtual Memory  | 강의 21, 22 - 가상 메모리와 관련 알고리즘 | 📅         |
