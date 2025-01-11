@@ -84,7 +84,7 @@
 
 ## 3. ⛳ Curriculum 
 
-### 24.12.02 ~ 25.01.12  : 운영체제 이론 강의, 프로젝트, 기술면접
+### 📅 24.12.02 ~ 25.01.12  : 운영체제 이론 강의, 프로젝트, 기술면접
 
 
 | Week    | Learning Content Title        | Details of Learning Content                        | Completion   |
@@ -98,8 +98,8 @@
 | Week 4 - 1  | 섹션 6. Chapter 6. Synchronization Tools | 강의 11, 12 - 프로세스 동기화와 문제 해결책   |    ✅     | 
 | Week 4 - 2  | 섹션 6. Chapter 6. Synchronization Tools  | 강의 13, 14 - 뮤텍스,세마포어,모니터, 자바 동기화 | ✅         |
 | Week 5 - 1  | 섹션 7. Chapter 7. Synchronization Examples |  강의 15, 16, 16-1 - 동시성 제어의 고전적 문제들과 예시  |    ✅     | 
-| Week 5 - 2  | 섹션 8. Chapter 8. Deadlocks  | 강의 17, 18 - 데드락과 뱅커 알고리즘 | 📅         |
-| Week 6  | 섹션 9. Chapter 9. Main Memory  | 강의 19, 20 - 주메모리 관리와 페이징, 스와핑 | 📅         |
+| Week 5 - 2  | 섹션 8. Chapter 8. Deadlocks  | 강의 17, 18 - 데드락과 뱅커 알고리즘 | ✅         |
+| Week 6  | 섹션 9. Chapter 9. Main Memory  | 강의 19, 20 - 주메모리 관리와 페이징, 스와핑 | ✅         |
 | Week 7  | 섹션 10. Chapter 10. Virtual Memory  | 강의 21, 22 - 가상 메모리와 관련 알고리즘 | 📅         |
 | Week 8  | 섹션 11,12. Chapter 11-17 Storage Management & Security & Protection  | 강의 23, 24 - 스토리지 입출력 및 운영체제 보안 | 📅         |
 | Week 9  | 마지막 개념 총정리본 만들기  | 오프라인으로 만나서 지금까지 중요한 질문들 및 답변 정리해서 요약본 만들기 | 📅         |
