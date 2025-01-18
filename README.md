@@ -60,7 +60,7 @@
 <table>
   <tr>
     <td align="center"><a href="https://github.com/yeongjinjeong"><img src="https://avatars.githubusercontent.com/u/134537573?v=4" width="100px;" alt=""/><br /><sub><b>
-정영진</b></sub></a><br /></td>
+👑 정영진</b></sub></a><br /></td>
     <td align="center"><a href="https://github.com/junbo-shim"><img src="https://avatars.githubusercontent.com/u/134994745?v=4" width="100px;" alt=""/><br /><sub><b>
 심준보</b></sub></a><br /></td>
     <td align="center"><a href="https://github.com/bit-generator"><img src="https://avatars.githubusercontent.com/u/53938713?v=4" width="100px;" alt=""/><br /><sub><b>
@@ -71,7 +71,6 @@
   </tr>
 </table>
 
-## 2-1. 👽 Our Squad (Graduated)
 <table>
   <tr>
     <td align="center"><a href="https://github.com/YoonpyoHong"><img src="https://avatars.githubusercontent.com/u/33150420?v=4" width="100px;" alt=""/><br /><sub><b>
@@ -100,7 +99,7 @@
 | Week 5 - 1  | 섹션 7. Chapter 7. Synchronization Examples |  강의 15, 16, 16-1 - 동시성 제어의 고전적 문제들과 예시  |    ✅     | 
 | Week 5 - 2  | 섹션 8. Chapter 8. Deadlocks  | 강의 17, 18 - 데드락과 뱅커 알고리즘 | ✅         |
 | Week 6  | 섹션 9. Chapter 9. Main Memory  | 강의 19, 20 - 주메모리 관리와 페이징, 스와핑 | ✅         |
-| Week 7  | 섹션 10. Chapter 10. Virtual Memory  | 강의 21, 22 - 가상 메모리와 관련 알고리즘 | 📅         |
+| Week 7  | 섹션 10. Chapter 10. Virtual Memory  | 강의 21, 22 - 가상 메모리와 관련 알고리즘 | ✅         |
 | Week 8  | 섹션 11,12. Chapter 11-17 Storage Management & Security & Protection  | 강의 23, 24 - 스토리지 입출력 및 운영체제 보안 | 📅         |
 | Week 9  | 마지막 개념 총정리본 만들기  | 오프라인으로 만나서 지금까지 중요한 질문들 및 답변 정리해서 요약본 만들기 | 📅         |
 
